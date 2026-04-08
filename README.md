@@ -17,3 +17,8 @@ Scraper hecho con Puppeteer que obtiene productos desde MercadoLibre y los expor
 
 npm install  
 node scraper.js
+
+## Utilidad 
+- Análisis de competencia
+- Tracking de precios
+- Detectar oportunidades de reventa
