@@ -137,3 +137,8 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# scraper output (regenerated on every run)
+output/*.xlsx
+debug/*.html
+debug/*.png

@@ -25,17 +25,17 @@ module.exports = {
     "carcasa",
   ],
 
-  // cuánto esperar entre requests, mantené estos valores generosos para ser prolijos con los servidores de mercadolibre
+  // timeouts entre requests para ml
   delays: {
-    afterNavigation: 2500, // espera después de que carga una página, antes de leer el dom
-    betweenModels: 3000, // espera entre búsquedas de distintos modelos
+    afterNavigation: 2500, // hay que esperar después de que carga una página, antes de leer el dom
+    betweenModels: 3000, // hay que esperar entre búsquedas de distintos modelos
     betweenPages: 2000, // espera entre páginas paginadas del mismo modelo
   },
 
   // tamaño del viewport del navegador
   viewport: { width: 1366, height: 768 },
 
-  // tope de seguridad para que un solo modelo no pagine todo el catálogo
+  // tope de seguridad
   maxPagesPerModel: 3,
 
   // comportamiento de reintento cuando falla page.goto() (timeouts, cortes de red, etc)
