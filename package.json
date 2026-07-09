@@ -1,17 +1,20 @@
 {
   "name": "mercadolibre-scraper",
-  "version": "1.0.0",
-  "description": "",
+  "version": "2.0.0",
+  "description": "Local-first MercadoLibre product scraper that exports results to Excel",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "scrape": "node index.js",
+    "check": "node scripts/check.js",
+    "audit": "npm audit"
   },
-  "keywords": [],
+  "keywords": ["mercadolibre", "scraper", "puppeteer"],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
     "exceljs": "^4.4.0",
-    "puppeteer": "^24.40.0"
+    "puppeteer": "^24.43.1"
   }
 }
